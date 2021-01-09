@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.MessageTemplate", "src\Serilog.Enrichers.MessageTemplate\Serilog.Enrichers.MessageTemplate.csproj", "{E9466867-8D9B-4A9B-A22C-05BC569353D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8BA9A22D-ADB3-417D-8764-3B99C8F1D9E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{16810EB4-B41E-49FE-8598-A93E65289663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.MessageTemplate.Tests", "test\Serilog.Enrichers.MessageTemplate.Tests\Serilog.Enrichers.MessageTemplate.Tests.csproj", "{9543F895-4BF1-40AA-9558-A60727FAD7C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9466867-8D9B-4A9B-A22C-05BC569353D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9466867-8D9B-4A9B-A22C-05BC569353D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9466867-8D9B-4A9B-A22C-05BC569353D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9466867-8D9B-4A9B-A22C-05BC569353D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9543F895-4BF1-40AA-9558-A60727FAD7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9543F895-4BF1-40AA-9558-A60727FAD7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9543F895-4BF1-40AA-9558-A60727FAD7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9543F895-4BF1-40AA-9558-A60727FAD7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC2E7EC-5EF0-401F-8482-A04D095E9231}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9466867-8D9B-4A9B-A22C-05BC569353D6} = {8BA9A22D-ADB3-417D-8764-3B99C8F1D9E5}
+		{9543F895-4BF1-40AA-9558-A60727FAD7C8} = {16810EB4-B41E-49FE-8598-A93E65289663}
+	EndGlobalSection
+EndGlobal
