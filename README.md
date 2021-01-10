@@ -1,11 +1,13 @@
 ﻿# Serilog.Enrichers.MessageTemplate
 
+![Nuget Push](https://github.com/bduman/serilog-enrichers-message-template/workflows/Nuget%20Push/badge.svg) [![Nuget](https://img.shields.io/nuget/v/Serilog.Enrichers.MessageTemplate)](https://www.nuget.org/packages/Serilog.Enrichers.MessageTemplate/)
+
 Enriches Serilog events with log event's message template.
 
 To use the enricher, first install the NuGet package:
 
 ```
-TODO
+Install-Package Serilog.Enrichers.MessageTemplate
 ```
 
 Then, apply the enricher to your LoggerConfiguration:
