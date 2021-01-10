@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/bduman/serilog-enrichers-message-template.git</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>serilog;enricher;property;messagetemplate</PackageTags>
+    <PackageDescription>Enrich Serilog log events with properties from LogEvent.MessageTemplate.Text</PackageDescription>
   </PropertyGroup>
 
   <ItemGroup>
