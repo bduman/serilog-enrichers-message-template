@@ -7,6 +7,9 @@
     <RepositoryUrl>https://github.com/bduman/serilog-enrichers-message-template.git</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
     <PackageTags>serilog;enricher;property;messagetemplate</PackageTags>
+    <PackageIconUrl>http://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
+    <PackageProjectUrl>http://serilog.net</PackageProjectUrl>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageDescription>Enrich Serilog log events with properties from LogEvent.MessageTemplate.Text</PackageDescription>
   </PropertyGroup>
 
