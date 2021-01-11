@@ -14,12 +14,12 @@ Then, apply the enricher to your LoggerConfiguration:
 
 ```
 Log.Logger = new LoggerConfiguration()
-    .Enrich.WithMessageTempate()
+    .Enrich.WithMessageTemplate()
     // ...other configuration...
     .CreateLogger();
 ```
 
-The WithMessageTempate() enricher will add a MessageTemplate property to produced events.
+The WithMessageTemplate() enricher will add a MessageTemplate property to produced events.
 
 ## What's message template ?
 

@@ -11,7 +11,7 @@ namespace Serilog.Enrichers.MessageTemplate.Tests
         {
             LogEvent evt = null;
             var log = new LoggerConfiguration()
-                .Enrich.WithMessageTempate()
+                .Enrich.WithMessageTemplate()
                 .WriteTo.Sink(new DelegatingSink(e => evt = e))
                 .CreateLogger();
 

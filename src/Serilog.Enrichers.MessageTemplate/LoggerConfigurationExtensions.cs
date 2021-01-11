@@ -5,7 +5,7 @@ namespace Serilog.Configuration
 {
     public static class MessageTemplateLoggerConfigurationExtensions
     {
-        public static LoggerConfiguration WithMessageTempate(this LoggerEnrichmentConfiguration enrichmentConfiguration)
+        public static LoggerConfiguration WithMessageTemplate(this LoggerEnrichmentConfiguration enrichmentConfiguration)
         {
             if (enrichmentConfiguration == null)
             {
